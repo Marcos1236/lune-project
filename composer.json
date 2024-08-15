@@ -1,0 +1,15 @@
+{
+    "name": "marcos1236/lune",
+    "description": "Lune framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marcos1236\\Lune\\": "src/",
+            "App\\" : "./app"
+        }
+    },
+    "require": {
+        "marcos1236/lune-framework": "^0.1.0"
+    }
+}
